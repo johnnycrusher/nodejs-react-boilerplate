@@ -8,6 +8,7 @@
 		"start": "node server.js",
 		"server": "nodemon server.js",
 		"client": "npm start --prefix client",
+		"build-react": "npm run build --prefix client",
 		"dev": "concurrently \"npm run server\" \"npm run client\"",
 		"server-debug": "nodemon --inspect server.js",
 		"dev-debug": "concurrently \"npm run server-debug\" \"npm run client\""
